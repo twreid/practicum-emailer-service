@@ -1,0 +1,17 @@
+<h1> CSV Data </h1>
+
+<table>
+    {{ range $k, $v := . }}
+    <tr>
+        <td>{{ $v.Name }}</td>
+        <td>{{ $v.MNumber }}</td>
+        <td>{{ $v.Email }}</td>
+        <td>{{ $v.Major }}</td>
+        <td>{{ $v.TbExpiration }}</td>
+        <td>{{ $v.LiabExpiration }}</td>
+        <td>{{ $v.FcsrExpiration }}</td>
+        <td>{{ $v.FbiExpiration }}</td>
+        <td>{{ $v.Courses }}</td>
+    </tr>
+    {{ end }}
+</table>
