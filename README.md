@@ -1,0 +1,1 @@
+# practicum-emailer-service
